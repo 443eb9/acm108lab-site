@@ -2,7 +2,7 @@
 
 import { AnimatePresence } from "motion/react";
 import * as motion from "motion/react-client";
-import { HTMLAttributes, ReactNode, useEffect, useState } from "react";
+import { HTMLAttributes, useEffect, useState } from "react";
 
 export default function AnimLoadingBar(props: HTMLAttributes<HTMLDivElement>) {
     const [state, setState] = useState(true)
