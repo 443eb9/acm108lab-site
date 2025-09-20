@@ -8,11 +8,25 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "sh-serif": ["SourceHanSerif", "sans-serif"],
+        "bender": ["Bender"],
+        "sh-sans": ["SourceHanSans"],
+        "neon": ["MonaspaceNeon"],
+        "pixel": ["FusionPixel"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "warn": "#ffff00",
+        "dark-0": "#f5f5f5",
+        "light-0": "#171717",
+        "dark-1": "#404040",
+        "light-1": "#e5e5e5",
+        "light-dark-neutral": "#737373",
+        "accent-0": "#12aa9c",
+        "accent-1": "#f75443"
       },
     },
   },
   plugins: [],
+  darkMode: "selector",
 } satisfies Config;
